@@ -1,0 +1,211 @@
+body{
+    background-color: #f8f8f8;
+}
+
+/* styles of navigation starts from. Don't add any other style here for making confusion */
+
+#navigation-bar{
+    background-color: #041562;
+    color: #fff;
+    
+}
+
+.logo{
+    height: 60px;
+    width: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.navbar{
+    padding-bottom: 2rem;
+}
+
+.nav-item{
+    padding: 0 15px;
+}
+
+.navi{
+    margin-left: 400px;
+}
+.container-fluid{
+    padding: 2% 15% 0;
+}
+
+/* style of home page starts from here. Don't add any ohter style or mix up styels */
+
+#home{
+    background-color: #041562;
+    color: #fff;
+}
+.bio{
+    padding-top: 50px;
+}
+.start{
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 1.2;
+    font-family: 'Roboto',sans-serif;
+}
+.des{
+    font-size: 3rem;
+    
+}
+.hi{
+    margin: 0;
+    font-size: 20px;
+    
+}
+.image{
+    padding-top: 0;
+    height: 570px;
+    width: 570px;
+}
+.btns{
+    margin-top: 3rem;
+    margin-right: 2rem;
+    height: 50px;
+    width: 150px;
+}
+/* This section is about styling our about section for creating good and attracktive
+bio and introduction page */
+
+#about{
+    background-color: #f8f8f8;
+}
+.photo{
+    height: 400px;
+    width: 400px;
+}
+.abt{
+    margin: 200px 0 100px;
+    
+}
+.story{
+    padding-top: 40px;
+    
+}
+.head1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.4;
+    font-family: 'Roboto',sans-serif;
+}
+.head2{
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 1.4;
+    font-family: 'Roboto',sans-serif;
+
+}
+.para1{
+    padding-top: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: rgb(136, 136, 136) ;
+}
+
+/* This section for styling our service section for bringing more clients. */
+h5{
+    color:mediumpurple;
+}
+#services{
+    padding: 150px;
+    text-align: center;
+}
+.card{
+    border: 0;
+}
+
+.colmn{
+    padding: 3% 2%;
+    text-align: left;
+}
+#fun{
+    padding: 2% 9%;
+    background-color: #041562;
+    color: #fff;
+}
+.funbox{
+    text-align: center;
+    padding: 12px;
+
+
+}
+
+/* this is the section for styling portfolio for making it attractive */
+
+#portfolio{
+    text-align: center;
+    padding: 150px;
+}
+
+.row{
+    margin: 5% 0 2%;
+}
+.port{
+    height: 300px;
+    width: 300px;
+}
+/* this section for styling testimonial section so that other people can see that we have very happy customers. */
+
+#testimonial{
+    text-align: center;
+
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.testi{
+    background-color: #041562;
+    color: #fff;
+    margin: 150px 0;
+}
+h6{
+    padding-bottom: 20px;
+}
+/* this the section for styling blogs and making it cool like professional */
+
+#blogs{
+    text-align: center;
+
+}
+.row2{
+    margin: 5% 200px 2%;
+}
+.colmn2{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.fas{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* this section is for styling contact page */
+#contact{
+    text-align: center;
+    margin-top: 70px;
+}
+.cont{
+    background-color:#041562;
+    color: #fff;
+    padding: 5% 0 5%;
+    margin: 5% 0 7%;
+}
+.fab{
+    margin: 10px ;
+}
+
+#footer{
+    background-color: #041562;
+    text-align: center;
+}
+.foot{
+    font-size: 15px;
+    color: white;
+    margin-bottom: 0px;
+
+}
+.fot{
+    padding: 5% 0 5%;
+}
