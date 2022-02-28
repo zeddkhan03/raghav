@@ -209,3 +209,29 @@ h6{
 .fot{
     padding: 5% 0 5%;
 }
+
+/* this section for all the changes for mobile page and we are gonna use the media q */
+
+@media only screen and (min-width: 300px){
+    .image{
+        width: 300px;
+        height: 500px;
+    }
+    .photo{
+        width: 300px;
+        height: 300px;
+
+    }
+    #services{
+        padding: 0px;
+    }
+    #portfolio{
+        padding: 0px;
+    }
+    .row2{
+        margin: 0px;
+    }
+    .colmn2{
+        text-align: left;
+    }
+}
