@@ -36,33 +36,37 @@ body{
 #home{
     background-color: #041562;
     color: #fff;
+    text-align: center;
 }
 .bio{
     padding-top: 50px;
 }
 .start{
+    padding-top: 5%;
     font-weight: 400;
-    font-size: 60px;
+    font-size: 55px;
     line-height: 1.2;
     font-family: 'Roboto',sans-serif;
 }
 .des{
-    font-size: 3rem;
+    font-size: 2.5rem;
     
 }
-.hi{
+.hi{ padding-top: 20px;
     margin: 0;
     font-size: 20px;
     
 }
 .image{
     padding-top: 0;
-    height: 570px;
-    width: 570px;
+    height: 200px;
+    width: 200px;
+    border-radius: 49% 51% 51% 49% / 48% 48% 52% 52% ;
 }
 .btns{
     margin-top: 3rem;
     margin-right: 2rem;
+    margin-bottom: 3rem;
     height: 50px;
     width: 150px;
 }
@@ -209,13 +213,21 @@ h6{
 .fot{
     padding: 5% 0 5%;
 }
-
-/* this section for all the changes for mobile page and we are gonna use the media q */
-
-@media only screen and (min-width: 300px){
-    .image{
-        width: 300px;
-        height: 500px;
+@media (max-width: 500px){
+    .navi{
+        margin: 0;
+    }
+    .start{
+        font-size: 40px;
+    }
+    .des{
+        font-size: 2rem;
+    }
+    .btns{
+        text-align: center;
+        height: 50px;
+        width: 110px;
+        margin-right: 0;
     }
     .photo{
         width: 300px;
